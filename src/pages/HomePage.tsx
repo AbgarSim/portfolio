@@ -40,7 +40,7 @@ export default function HomePage() {
         <title>Abgar Simonean | Senior Java + Data Engineer</title>
         <meta
           name="description"
-          content="Senior Data Engineer specializing in distributed systems, GCP, and Apache Beam. Building scalable data pipelines at Renault Group."
+          content="Senior Software Engineer specializing in distributed systems, GCP, and Apache Beam. Building scalable data pipelines at Renault Group."
         />
       </Helmet>
 
@@ -96,17 +96,17 @@ export default function HomePage() {
               className="flex flex-wrap gap-4 mb-12"
             >
               <Button asChild size="lg" className="gap-2">
-                <a href="/cv.pdf" target="_blank">
+                <a href="/pdf/CV_ASimonean_31.10.25.pdf" target="_blank">
                   <FileText className="h-4 w-4" />
                   View CV
                 </a>
               </Button>
-              <Button asChild variant="secondary" size="lg" className="gap-2">
-                <Link to="/projects">
-                  View Projects
-                  <ArrowRight className="h-4 w-4" />
-                </Link>
-              </Button>
+              {/*<Button asChild variant="secondary" size="lg" className="gap-2">*/}
+              {/*  <Link to="/projects">*/}
+              {/*    View Projects*/}
+              {/*    <ArrowRight className="h-4 w-4" />*/}
+              {/*  </Link>*/}
+              {/*</Button>*/}
               <Button asChild variant="outline" size="lg" className="gap-2">
                 <Link to="/contact">
                   <Mail className="h-4 w-4" />
@@ -154,19 +154,24 @@ export default function HomePage() {
               transition={{ duration: 0.5 }}
             >
               <SectionHeader
-                title="About Me"
-                subtitle="Building the future of data engineering"
+                  title="About Me"
+                  subtitle="Engineering reliable systems at any scale"
               />
               <p className="text-muted-foreground mb-6">
-                With over 6 years of experience in software engineering and data systems, 
-                I've worked across the entire spectrum from backend services to real-time 
-                analytics platforms. My passion lies in building systems that can handle 
-                massive scale while remaining maintainable and cost-effective.
+                With over 8 years of experience across backend engineering and large-scale
+                data systems, I've designed and built everything from distributed
+                microservices and real-time analytics platforms to cross-platform mobile apps. I focus on delivering
+                solutions that are both robust and maintainable, even under demanding
+                performance and cost constraints.
               </p>
               <p className="text-muted-foreground mb-6">
-                Currently at Renault Group, I lead the design and implementation of 
-                data pipelines that process hundreds of millions of events daily from 
-                connected vehicles and manufacturing systems.
+                At Renault Group, I am responsible for implementation of pipelines
+                that process hundreds of millions of vehicle and manufacturing events every
+                day—ensuring data quality, reliability, and end-to-end operational excellence.
+              </p>
+              <p className="text-muted-foreground mb-6">
+                I take pride in being adaptable across languages and technologies.
+                While Java is my core strength, I’m comfortable stepping into any tech stack and delivering value wherever it’s needed.
               </p>
               <Button asChild variant="outline" className="gap-2">
                 <Link to="/about">
@@ -183,9 +188,11 @@ export default function HomePage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="relative"
             >
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-accent/10 p-8 flex items-center justify-center">
-                <div className="text-8xl font-bold text-primary/30">AS</div>
-              </div>
+              <img
+                  src="/photo.jpeg"
+                  alt="Profile"
+                  className="w-full h-full object-cover"
+              />
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary/20 rounded-full blur-2xl" />
             </motion.div>
           </div>
@@ -260,39 +267,39 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* Featured Projects */}
-      <section className="py-24">
-        <Container>
-          <div className="flex items-end justify-between mb-12">
-            <SectionHeader
-              title="Featured Projects"
-              subtitle="Some of my recent work"
-              className="mb-0"
-            />
-            <Button asChild variant="ghost" className="gap-2 hidden sm:flex">
-              <Link to="/projects">
-                View all projects
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
+      {/*/!* Featured Projects *!/*/}
+      {/*<section className="py-24">*/}
+      {/*  <Container>*/}
+      {/*    <div className="flex items-end justify-between mb-12">*/}
+      {/*      <SectionHeader*/}
+      {/*        title="Featured Projects"*/}
+      {/*        subtitle="Some of my recent work"*/}
+      {/*        className="mb-0"*/}
+      {/*      />*/}
+      {/*      <Button asChild variant="ghost" className="gap-2 hidden sm:flex">*/}
+      {/*        <Link to="/projects">*/}
+      {/*          View all projects*/}
+      {/*          <ArrowRight className="h-4 w-4" />*/}
+      {/*        </Link>*/}
+      {/*      </Button>*/}
+      {/*    </div>*/}
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featuredProjects.map((project, index) => (
-              <ProjectCard key={project.id} project={project} index={index} />
-            ))}
-          </div>
+      {/*    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">*/}
+      {/*      {featuredProjects.map((project, index) => (*/}
+      {/*        <ProjectCard key={project.id} project={project} index={index} />*/}
+      {/*      ))}*/}
+      {/*    </div>*/}
 
-          <div className="mt-8 sm:hidden">
-            <Button asChild variant="outline" className="w-full gap-2">
-              <Link to="/projects">
-                View all projects
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </Container>
-      </section>
+      {/*    <div className="mt-8 sm:hidden">*/}
+      {/*      <Button asChild variant="outline" className="w-full gap-2">*/}
+      {/*        <Link to="/projects">*/}
+      {/*          View all projects*/}
+      {/*          <ArrowRight className="h-4 w-4" />*/}
+      {/*        </Link>*/}
+      {/*      </Button>*/}
+      {/*    </div>*/}
+      {/*  </Container>*/}
+      {/*</section>*/}
 
       {/* Featured Writing */}
       <section className="py-24 bg-gradient-subtle">

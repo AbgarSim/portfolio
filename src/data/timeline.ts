@@ -14,39 +14,128 @@ export interface TimelineEntry {
 export const timelineEntries: TimelineEntry[] = [
   {
     id: "renault",
-    title: "Senior Data Engineer",
+    title: "Senior Software Engineer – Data Engineering",
     company: "Renault Group",
-    location: "Paris, France",
-    startDate: "2022",
+    location: "Remote",
+    startDate: "Jul 2023",
     endDate: "Present",
     isCurrent: true,
-    description: "Leading the design and implementation of large-scale data processing infrastructure for connected vehicles and manufacturing operations. Architected real-time pipelines processing 100M+ events daily.",
-    techStack: ["Apache Beam", "GCP", "BigQuery", "Dataflow", "Java", "Python"],
+    description:
+        "Designing and delivering scalable data pipelines and backend services for Renault's global manufacturing analytics platform, using Apache Beam, BigQuery, and Spring Boot APIs to power real-time and historical insights.",
+    techStack: [
+      "Apache Beam",
+      "GCP",
+      "Dataflow",
+      "BigQuery",
+      "Spring Boot",
+      "Java",
+      "Redis",
+      "Kubernetes"
+    ],
     link: "https://www.renaultgroup.com"
   },
   {
     id: "grid-dynamics",
-    title: "Java Engineer",
+    title: "Senior Full-Stack Software Developer",
     company: "Grid Dynamics",
-    location: "Remote",
-    startDate: "2020",
-    endDate: "2022",
+    location: "Chisinau, Moldova",
+    startDate: "Jun 2022",
+    endDate: "Jul 2023",
     isCurrent: false,
-    description: "Developed high-performance financial analytics systems for major banking clients with focus on anti-money laundering and fraud detection.",
-    techStack: ["Java", "Apache Flink", "Kafka", "Neo4j", "PostgreSQL"],
+    description:
+        "Built high-performance AML analytics tools for a large e-commerce environment, developing Java-based services and React UIs to monitor suspicious activity under SLAs of 200k+ requests per second.",
+    techStack: [
+      "Java",
+      "Spring Boot",
+      "Java EE",
+      "React",
+      "Redux",
+      "NoSQL",
+      "PostgreSQL",
+      "Kafka"
+    ],
     link: "https://www.griddynamics.com"
   },
   {
-    id: "endava",
-    title: "Software Engineer",
+    id: "endava-java-dev",
+    title: "Java Software Developer",
     company: "Endava",
-    location: "Bucharest, Romania",
-    startDate: "2018",
-    endDate: "2020",
+    location: "Chisinau, Moldova",
+    startDate: "Jul 2019",
+    endDate: "Jun 2022",
     isCurrent: false,
-    description: "Full-stack development for enterprise clients in telecommunications and retail sectors. Built microservices architecture and mobile applications.",
-    techStack: ["Java", "Spring Boot", "Flutter", "Docker", "PostgreSQL"],
+    description:
+        "Engineered core modules for a secure financial platform supporting central banking and Immediate Payment System integrations, using Java, Spring, and enterprise databases like Oracle and IBM DB2.",
+    techStack: [
+      "Java",
+      "Java EE",
+      "Spring",
+      "Spring Boot",
+      "Oracle",
+      "IBM DB2",
+      "JUnit",
+      "Mockito"
+    ],
     link: "https://www.endava.com"
+  },
+  {
+    id: "endava-mentor",
+    title: "Intern Software Mentor",
+    company: "Endava",
+    location: "Chisinau, Moldova",
+    startDate: "Feb 2020",
+    endDate: "Jun 2020",
+    isCurrent: false,
+    description:
+        "Mentored an Endava Spring intern through backend development fundamentals, project workflows, and professional best practices, helping them integrate into a production team.",
+    techStack: ["Java", "Spring Boot", "Mentoring", "Agile"],
+    link: "https://www.endava.com"
+  },
+  {
+    id: "isd-dev",
+    title: "Software Maintainer / Developer",
+    company: "ISD Moldova",
+    location: "Chisinau, Moldova",
+    startDate: "Sep 2018",
+    endDate: "Jun 2019",
+    isCurrent: false,
+    description:
+        "Maintained and extended large-scale logistics platforms for international clients, focusing on backend services, data integrity, and system integrations across warehouses and shipments.",
+    techStack: [
+      "Java",
+      "Spring",
+      "PostgreSQL",
+      "Oracle",
+      "JPA",
+      "Liquibase",
+      "JMS"
+    ],
+    link: "https://www.isd-soft.com"
+  },
+  {
+    id: "isd-intern",
+    title: "Intern Software Developer",
+    company: "ISD Moldova",
+    location: "Chisinau, Moldova",
+    startDate: "May 2018",
+    endDate: "Aug 2018",
+    isCurrent: false,
+    description:
+        "Contributed to Motivision, a cross-platform reward-based app encouraging healthy activities, gaining hands-on experience with real-world product development.",
+    techStack: ["Java", "Android", "Agile"],
+    link: "https://www.isd-soft.com"
+  },
+  {
+    id: "freelance",
+    title: "Freelance Contractor",
+    company: "Self-Employed",
+    location: "Chisinau, Moldova",
+    startDate: "Aug 2017",
+    endDate: "May 2018",
+    isCurrent: false,
+    description:
+        "Designed, developed, and deployed a full website for a pharmaceutical company, owning the entire delivery from requirements to production launch.",
+    techStack: ["HTML", "CSS", "JavaScript", "PHP"],
   }
 ];
 

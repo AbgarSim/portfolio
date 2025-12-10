@@ -34,20 +34,20 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: "Email",
-      value: "hello@abgarsimonean.com",
-      href: "mailto:hello@abgarsimonean.com",
+      value: "abgar1223@gmail.com",
+      href: "mailto:abgar1223@gmail.com",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/abgarsimonean",
-      href: "https://linkedin.com/in/abgarsimonean",
+      href: "https://www.linkedin.com/in/abgar-simonean/",
     },
     {
       icon: Github,
       label: "GitHub",
       value: "github.com/abgarsimonean",
-      href: "https://github.com/abgarsimonean",
+      href: "https://github.com/AbgarSim",
     },
   ];
 

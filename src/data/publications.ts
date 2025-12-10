@@ -11,43 +11,43 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
-    id: "building-scalable-data-pipelines",
-    title: "Building Scalable Data Pipelines with Apache Beam",
-    excerpt: "A deep dive into designing and implementing production-grade data pipelines that can handle billions of events per day while maintaining low latency and high reliability.",
+    id: "address-parsing-case-study",
+    title: "When the Best Solution Isn’t the Obvious One: A Case Study in Address Parsing",
+    excerpt: "A simple “deserialize XML into a POJO” task for AML compliance turned into a nightmare of messy, " +
+        "multilingual, unstructured addresses. Regexes, heuristics, and Java libraries all failed. The real solution " +
+        "required integrating a C NLP library into Java via JNI and switching to a better trained model.",
     publication: "HackerNoon",
-    date: "2024-01-15",
-    tags: ["Apache Beam", "Data Engineering", "GCP"],
-    url: "https://hackernoon.com",
+    date: "2025-12-10",
+    tags: [
+      "case-study",
+      "software-architecture",
+      "programming",
+      "java",
+      "nlp",
+      "java-native-interface",
+      "data-normalization",
+      "software-development",
+      "scaling"
+    ],
+    url: "https://hackernoon.com/when-the-best-solution-isnt-the-obvious-one-a-case-study-in-address-parsing",
     featured: true,
   },
   {
-    id: "streaming-vs-batch",
-    title: "Stream Processing vs Batch: When to Choose What",
-    excerpt: "Understanding the tradeoffs between streaming and batch processing paradigms, with real-world examples from automotive data processing at scale.",
-    publication: "Medium",
-    date: "2023-11-20",
-    tags: ["Big Data", "Architecture", "Best Practices"],
-    url: "https://medium.com",
-    featured: true,
-  },
-  {
-    id: "flutter-enterprise",
-    title: "Flutter for Enterprise: Lessons from Production",
-    excerpt: "Key insights and patterns learned from building enterprise-grade mobile applications with Flutter, including state management, testing, and CI/CD.",
-    publication: "Medium",
-    date: "2023-09-05",
-    tags: ["Flutter", "Mobile", "Enterprise"],
-    url: "https://medium.com",
-    featured: false,
-  },
-  {
-    id: "distributed-systems-patterns",
-    title: "Essential Patterns for Distributed Systems",
-    excerpt: "A practical guide to implementing common patterns like saga, event sourcing, and CQRS in modern distributed applications.",
+    id: "documentation-discussion",
+    title: "If Your Documentation Takes Two Clicks to Open, Congrats - It’s Already Outdated",
+    excerpt: "Documentation only survives if it lives as close to the code as possible. Good documentation isn’t a " +
+        "single artifact - it’s a small ecosystem of layers, each serving a different purpose.",
     publication: "HackerNoon",
-    date: "2023-06-10",
-    tags: ["Distributed Systems", "Architecture", "Patterns"],
-    url: "https://hackernoon.com",
+    date: "2025-12-07",
+    tags: [
+      "clean-code",
+      "software-documentation",
+      "programming",
+      "java",
+      "hackernoon-top-story",
+      "best-practices"
+    ],
+    url: "https://hackernoon.com/if-your-documentation-takes-two-clicks-to-open-congrats-its-already-outdated",
     featured: true,
   },
 ];

@@ -31,7 +31,7 @@ export function Footer() {
               <span className="text-primary">.</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
-              Senior Data Engineer specializing in distributed systems, 
+              Senior Software Engineer specializing in distributed systems,
               real-time data processing, and cloud-native architectures.
             </p>
           </div>

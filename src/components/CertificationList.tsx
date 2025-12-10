@@ -22,10 +22,16 @@ export function CertificationList({ certifications }: CertificationListProps) {
           transition={{ duration: 0.4, delay: index * 0.1 }}
         >
           <Card className="h-full hover:shadow-md transition-shadow">
-            <CardHeader className="pb-3">
+            <CardHeader className="pb-5">
               <div className="flex items-start justify-between gap-3">
-                <div className="p-2 rounded-lg bg-primary/10">
-                  <Award className="h-5 w-5 text-primary" />
+                <div className="flex items-center gap-2 p-2 rounded-lg bg-primary/10">
+                  {cert.credentialPhoto && (
+                      <img
+                          src={cert.credentialPhoto}
+                          alt="Certificate"
+                          className="h-15 w-12 rounded-md object-cover"
+                      />
+                  )}
                 </div>
                 <Badge
                   variant={
@@ -50,7 +56,8 @@ export function CertificationList({ certifications }: CertificationListProps) {
             <CardContent>
               <h3 className="font-semibold text-foreground mb-1">{cert.name}</h3>
               <p className="text-sm text-muted-foreground mb-3">{cert.issuer}</p>
-              
+              <p className="text-sm text-muted-foreground mb-3">{cert.description}</p>
+
               {cert.issueDate && (
                 <div className="flex items-center gap-1 text-xs text-muted-foreground mb-3">
                   <Calendar className="h-3 w-3" />

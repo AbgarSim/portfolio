@@ -16,10 +16,10 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "payup-app",
-    title: "PayUp App",
+    title: "PayUp App (WIP)",
     description: "A modern expense tracking and bill splitting application built with Flutter and Spring Boot.",
     longDescription: "PayUp revolutionizes group expense management with real-time synchronization, smart bill splitting algorithms, and seamless payment integrations.",
-    techStack: ["Flutter", "Spring Boot", "PostgreSQL", "Redis", "Docker"],
+    techStack: ["Flutter", "Spring Boot", "PostgreSQL", "Docker"],
     category: "Mobile App",
     image: "/placeholder.svg",
     featured: true,

@@ -25,7 +25,8 @@ export default function AboutPage() {
         <title>About | Abgar Simonean</title>
         <meta
           name="description"
-          content="Learn about Abgar Simonean's journey from software engineer to senior data engineer, specializing in distributed systems and real-time data processing."
+          content="Learn about Abgar Simonean's journey from software engineer to senior data engineer,
+          specializing in distributed systems and real-time data processing."
         />
       </Helmet>
 
@@ -46,21 +47,22 @@ export default function AboutPage() {
                 <span className="text-gradient">actionable insights</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-4">
-                I'm a Senior Data Engineer with a passion for building systems that 
-                can process massive amounts of data in real-time while remaining 
-                maintainable and cost-effective.
+                I'm a Senior Software Engineer with a strong foundation in
+                building reliable microservices and large-scale data systems. I focus on
+                creating solutions that are both scalable and cost-efficient, even under
+                demanding real-world constraints.
               </p>
               <p className="text-muted-foreground mb-6">
-                My journey in tech started with traditional backend development, 
-                but I quickly found my calling in the world of data engineering 
-                and distributed systems. Today, I specialize in designing and 
-                implementing large-scale data pipelines that power critical 
-                business decisions.
+                Throughout my career, I've delivered high-impact systems ranging from
+                distributed data pipelines to mission-critical backend services. My strength
+                lies in taking complex technical challenges—from architecture to
+                implementation—and bringing them to production with clarity, ownership,
+                and long-term maintainability.
               </p>
               <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-primary" />
-                  Paris, France
+                  Remote
                 </div>
                 <div className="flex items-center gap-2">
                   <Briefcase className="h-4 w-4 text-primary" />
@@ -72,18 +74,21 @@ export default function AboutPage() {
                 </div>
               </div>
             </motion.div>
-
             <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="relative"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="relative"
             >
-              <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-primary/20 to-accent/10 overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-9xl font-bold text-primary/20">AS</span>
-                </div>
+              <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-accent/10">
+                <img
+                    src="/photo.jpeg"
+                    alt="Profile"
+                    className="w-full h-full object-cover"
+                />
               </div>
+
+              {/* Glow element */}
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary/20 rounded-full blur-2xl" />
             </motion.div>
           </div>
@@ -231,14 +236,12 @@ export default function AboutPage() {
               in distributed computing.
             </p>
             <p className="text-muted-foreground">
-              I'm passionate about knowledge sharing and regularly speak at local 
-              meetups about data engineering best practices. I believe in the power 
+              I'm passionate about knowledge sharing. I believe in the power
               of community-driven learning and try to give back through mentoring 
               and open-source contributions.
             </p>
             <p className="text-muted-foreground">
-              Outside of tech, I enjoy hiking in the French Alps, photography, 
-              and exploring the vibrant food scene in Paris.
+              Outside of tech, I enjoy traveling, fixing my infinitely breaking retro BMW and drinking specialty coffee.
             </p>
           </motion.div>
         </Container>
