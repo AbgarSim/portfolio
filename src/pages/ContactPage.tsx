@@ -40,7 +40,7 @@ export default function ContactPage() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/abgarsimonean",
+      value: "www.linkedin.com/in/abgar-simonean/",
       href: "https://www.linkedin.com/in/abgar-simonean/",
     },
     {

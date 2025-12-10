@@ -12,10 +12,10 @@ import { certifications } from "@/data/certifications";
 import { memberships } from "@/data/memberships";
 
 const achievements = [
-  { label: "Years Experience", value: "6+" },
+  { label: "Years Experience", value: "8+" },
   { label: "Projects Delivered", value: "20+" },
-  { label: "Events/Day Processed", value: "100M+" },
-  { label: "Publications", value: "10+" },
+  { label: "Coffee Liters Drank", value: "100M+" },
+  { label: "Publications", value: "2" },
 ];
 
 export default function AboutPage() {

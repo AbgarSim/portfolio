@@ -125,7 +125,7 @@ export function Navbar() {
             <div className="flex items-center gap-2">
               <div className="hidden sm:flex items-center gap-1">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/AbgarSim"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
@@ -133,7 +133,7 @@ export function Navbar() {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="linkedin.com/in/abgarsimonean"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
@@ -228,7 +228,7 @@ export function Navbar() {
               })}
               <div className="flex items-center gap-2 pt-4 border-t border-border mt-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/AbgarSim"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 flex items-center justify-center gap-2 p-3 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
@@ -237,7 +237,7 @@ export function Navbar() {
                   GitHub
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/abgar-simonean/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 flex items-center justify-center gap-2 p-3 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"

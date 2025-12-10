@@ -122,7 +122,7 @@ export default function HomePage() {
               <span className="text-sm text-muted-foreground">Find me on</span>
               <div className="flex gap-2">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/AbgarSim"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
@@ -130,7 +130,7 @@ export default function HomePage() {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/abgar-simonean/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
