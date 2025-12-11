@@ -8,6 +8,7 @@ export interface TimelineEntry {
   isCurrent: boolean;
   description: string;
   techStack: string[];
+  credentialsUrl?: string;
   link?: string;
 }
 
@@ -136,6 +137,52 @@ export const timelineEntries: TimelineEntry[] = [
     description:
         "Designed, developed, and deployed a full website for a pharmaceutical company, owning the entire delivery from requirements to production launch.",
     techStack: ["HTML", "CSS", "JavaScript", "PHP"],
+  }
+];
+
+export const educationTimelineEntries: TimelineEntry[] = [
+  {
+    id: "masters",
+    title: "Master’s Degree – Informational Technologies in Modeling",
+    company: "Technical University of Moldova",
+    location: "Chisinau, Moldova",
+    startDate: "2022",
+    endDate: "2024",
+    isCurrent: false,
+    description:
+        "Advanced studies in Software Development, distributed systems, software architecture, and cloud-native " +
+        "development. Focused on scalable backend systems, machine learning foundations, and modern enterprise " +
+        "engineering practices.",
+    techStack: [
+      "Java",
+      "Distributed Systems",
+      "Machine Learning",
+      "Cloud Computing",
+      "Software Architecture"
+    ],
+    link: "https://usm.md",
+    credentialsUrl: "/pdf/masters.pdf"
+  },
+  {
+    id: "bachelors",
+    title: "Bachelor’s Degree – Computer Science",
+    company: "Technical University of Moldova",
+    location: "Chisinau, Moldova",
+    startDate: "2017",
+    endDate: "2020",
+    isCurrent: false,
+    description:
+        "Comprehensive IT program covering programming, algorithms, web technologies, databases, and system design. " +
+        "Formed the technical foundation for full-stack and backend engineering roles.",
+    techStack: [
+      "Java",
+      "Algorithms",
+      "Databases",
+      "Web Development",
+      "Networking"
+    ],
+    link: "https://usm.md",
+    credentialsUrl: "/pdf/bachelors.pdf"
   }
 ];
 

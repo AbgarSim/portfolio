@@ -7,13 +7,13 @@ import { Timeline } from "@/components/Timeline";
 import { CertificationList } from "@/components/CertificationList";
 import { MembershipList } from "@/components/MembershipList";
 import { TechBadge } from "@/components/TechBadge";
-import { timelineEntries } from "@/data/timeline";
+import {educationTimelineEntries, timelineEntries} from "@/data/timeline";
 import { certifications } from "@/data/certifications";
 import { memberships } from "@/data/memberships";
 
 const achievements = [
   { label: "Years Experience", value: "8+" },
-  { label: "Projects Delivered", value: "20+" },
+  { label: "Projects Delivered", value: "10+" },
   { label: "Coffee Liters Drank", value: "100M+" },
   { label: "Publications", value: "2" },
 ];
@@ -128,6 +128,19 @@ export default function AboutPage() {
 
           <div className="mt-12">
             <Timeline entries={timelineEntries} />
+          </div>
+        </Container>
+      </section>
+
+      <section id="timeline" className="py-24 scroll-mt-20">
+        <Container size="narrow">
+          <SectionHeader
+              title="Education"
+              subtitle="My professional education"
+          />
+
+          <div className="mt-12">
+            <Timeline entries={educationTimelineEntries} />
           </div>
         </Container>
       </section>

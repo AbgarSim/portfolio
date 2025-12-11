@@ -3,6 +3,7 @@ import { ExternalLink, MapPin, Calendar } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import { TimelineEntry } from "@/data/timeline";
+import {Button} from "@/components/ui/button.tsx";
 
 interface TimelineProps {
   entries: TimelineEntry[];
@@ -94,6 +95,24 @@ export function Timeline({ entries, showLinks = true }: TimelineProps) {
                 Visit {entry.company}
                 <ExternalLink className="h-3 w-3" />
               </a>
+            )}
+
+            {entry.credentialsUrl && (
+                <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full gap-2 mt-2"
+                    asChild
+                >
+                  <a
+                      href={entry.credentialsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    View Credential
+                    <ExternalLink className="h-3 w-3" />
+                  </a>
+                </Button>
             )}
           </div>
         </motion.div>
