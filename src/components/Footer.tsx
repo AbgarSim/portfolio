@@ -12,8 +12,8 @@ const footerLinks = [
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/AbgarSim", label: "GitHub" },
-  { icon: Linkedin, href: "linkedin.com/in/abgarsimonean", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:hello@abgarsimonean.com", label: "Email" },
+  { icon: Linkedin, href: "linkedin.com/in/abgar-simonean", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:abgar1223@gmail.com", label: "Email" },
 ];
 
 export function Footer() {

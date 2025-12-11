@@ -69,10 +69,10 @@ export default function PublicationsPage() {
             </h2>
             <p className="text-muted-foreground mb-6">
               I'm always open to guest posts, collaborations, and speaking 
-              opportunities on topics related to data engineering and distributed systems.
+              opportunities on topics related to software/data engineering and distributed systems.
             </p>
             <a
-              href="mailto:hello@abgarsimonean.com"
+              href="mailto:abgar1223@gmail.com"
               className="inline-flex items-center gap-2 text-primary hover:underline"
             >
               Get in touch →

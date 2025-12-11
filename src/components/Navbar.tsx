@@ -133,7 +133,7 @@ export function Navbar() {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="linkedin.com/in/abgarsimonean"
+                  href="linkedin.com/in/abgar-simonean"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"

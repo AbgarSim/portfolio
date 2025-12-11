@@ -46,7 +46,7 @@ export default function ContactPage() {
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/abgarsimonean",
+      value: "github.com/AbgarSim",
       href: "https://github.com/AbgarSim",
     },
   ];
