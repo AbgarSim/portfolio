@@ -15,8 +15,7 @@ export const publications: Publication[] = [
     title: "How to Accidentally Build a Programming Language While Cleaning Redis",
     excerpt: "A Redis cleanup task evolved into a full rule engine. Configurable JSON rules grew to support " +
         "logic, recursion, traversal, persistence, and rollback — effectively becoming a rule engine/programming language " +
-        "by accident." +
-        "\n",
+        "by accident.",
     publication: "HackerNoon",
     date: "2025-12-15",
     tags: [
