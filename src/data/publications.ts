@@ -11,6 +11,28 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    id: "accidental-programming-language",
+    title: "How to Accidentally Build a Programming Language While Cleaning Redis",
+    excerpt: "A Redis cleanup task evolved into a full rule engine. Configurable JSON rules grew to support " +
+        "logic, recursion, traversal, persistence, and rollback — effectively becoming a rule engine/programming language " +
+        "by accident." +
+        "\n",
+    publication: "HackerNoon",
+    date: "2025-12-15",
+    tags: [
+      "case-study",
+      "redis",
+      "business-rule-engine",
+      "java",
+      "tech-debt",
+      "backend-development",
+      "software-development",
+      "scaling"
+    ],
+    url: "https://hackernoon.com/how-to-accidentally-build-a-programming-language-while-cleaning-redis",
+    featured: true,
+  },
+  {
     id: "address-parsing-case-study",
     title: "When the Best Solution Isn’t the Obvious One: A Case Study in Address Parsing",
     excerpt: "A simple “deserialize XML into a POJO” task for AML compliance turned into a nightmare of messy, " +

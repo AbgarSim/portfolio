@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="091e1d35-ad7b-41c9-869a-8501d4d339ec" name="Changes" comment="Fix contacts">
+    <list default="true" id="091e1d35-ad7b-41c9-869a-8501d4d339ec" name="Changes" comment="favicon.ico fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <updated>1765306082567</updated>
       <workItem from="1765306083602" duration="652000" />
       <workItem from="1765361957594" duration="9864000" />
-      <workItem from="1765448010702" duration="1910000" />
+      <workItem from="1765448010702" duration="2758000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -136,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765449210473</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="favicon.ico fix">
+      <option name="closed" value="true" />
+      <created>1765451372528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765451372528</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +171,7 @@
     <MESSAGE value="Added educations section" />
     <MESSAGE value="Added educations section 2" />
     <MESSAGE value="Fix contacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix contacts" />
+    <MESSAGE value="favicon.ico fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="favicon.ico fix" />
   </component>
 </project>
